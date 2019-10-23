@@ -11,7 +11,7 @@ First retry in 1 second, second retry in 2 seconds, third retry in 4 seconds and
 ```
 $response = Shaggyrec\PhpHttpClient\Client::getInstance('https://hostname.com')->post(
     '/path/to/resource',
-    $basketJson,
+    $requestJson,
     [
         'option' => '1',
         'anotherOption' => '1',
