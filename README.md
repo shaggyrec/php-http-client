@@ -1,5 +1,7 @@
 # Api client
 
+[![Build Status](https://travis-ci.org/shaggyrec/php-http-client.svg?branch=master)](https://travis-ci.org/shaggyrec/php-http-client)
+
 Api client provide a way to make http request (to Hogashop rest api, for example) with retrying ability.
 If response code >= 500, request will be retried several times. 
 First retry in 1 second, second retry in 2 seconds, third retry in 4 seconds and so on, until 256 second limit was reach.
