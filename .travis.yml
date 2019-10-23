@@ -2,5 +2,5 @@ language: php
 php:
   - 7.0
 install:
-  - composer install --dev
+  - composer install
 script: ./tests/run.sh
