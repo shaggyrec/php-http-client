@@ -1,0 +1,23 @@
+{
+    "name": "shaggyrec/php-http-client",
+    "description": "Client for http requests from the php script",
+    "autoload": {
+        "psr-4": {
+            "Shaggyrec\\PhpHttpClient\\": ["src"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shaggyrec\\PhpHttpClient\\Test\\": "tests/lib/Test"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "symfony/http-client": "^4"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^8"
+    }
+}
