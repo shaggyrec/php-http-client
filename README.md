@@ -20,3 +20,7 @@ $response = Shaggyrec\PhpHttpClient\Client::getInstance('https://hostname.com')-
         'X-User-Id' => '666'
     ]);
 ```
+
+# Tests
+
+    ./tests/run.sh
