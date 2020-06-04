@@ -1,7 +1,6 @@
 {
     "name": "shaggyrec/php-http-client",
     "description": "Client for http requests from the php script",
-    "version": "1.0.4",
     "type": "library",
     "autoload": {
         "psr-4": {
