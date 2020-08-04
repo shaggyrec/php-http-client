@@ -6,6 +6,9 @@ Api client provide a way to make http request (to rest api, for example) with re
 If response code >= 500, request will be retried several times. 
 First retry in 1 second, second retry in 2 seconds, third retry in 4 seconds and so on, until 256 second limit was reach.
 
+# Installation
+    composer require shaggyrec/php-http-client
+
 # Usage
 
 ```
