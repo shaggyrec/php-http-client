@@ -20,11 +20,12 @@ Class Client
 
     /**
      * @param string $host
+     * @param array $options
      * @return Client
      */
-    public static function getInstance(string $host): Client
+    public static function getInstance(string $host, array $options = []): Client
     {
-        return new self(HttpClient::create(), $host);
+        return new self(HttpClient::create($options), $host);
     }
 
     /**
