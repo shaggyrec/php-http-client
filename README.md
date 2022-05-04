@@ -24,6 +24,15 @@ $response = Shaggyrec\PhpHttpClient\Client::getInstance('https://hostname.com')-
     ]);
 ```
 
+### You can you proxy or another options
+
+```
+    Shaggyrec\PhpHttpClient\Client::getInstance(
+        'https://hostname.com',
+        ['proxy' => 'http://username:password@ip:port/']
+    );
+```
+
 # Tests
 
     ./tests/run.sh

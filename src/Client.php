@@ -21,6 +21,8 @@ Class Client
     /**
      * @param string $host
      * @param array $options
+     * @see HttpClientInterface::OPTIONS_DEFAULTS for available options
+     *
      * @return Client
      */
     public static function getInstance(string $host, array $options = []): Client
@@ -32,6 +34,8 @@ Class Client
      * Client constructor.
      * @param HttpClientInterface $client
      * @param string $host
+     *
+     * @see HttpClientInterface::OPTIONS_DEFAULTS for available options
      */
     public function __construct(HttpClientInterface $client, string $host)
     {
