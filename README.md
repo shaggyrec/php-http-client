@@ -24,7 +24,7 @@ $response = Shaggyrec\PhpHttpClient\Client::getInstance('https://hostname.com')-
     ]);
 ```
 
-### You can you proxy or another options
+### You can use proxy or another options
 
 ```
     Shaggyrec\PhpHttpClient\Client::getInstance(
